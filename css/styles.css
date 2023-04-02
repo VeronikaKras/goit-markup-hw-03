@@ -93,7 +93,9 @@ align-items: center;
          }
 
          .team-names {
-            background-color: #FFFFFF
+            background-color: #FFFFFF;
+            text-align: center;
+            
          }
 
 
@@ -131,9 +133,9 @@ align-items: center;
     padding-bottom: 12px;
     padding-right: 24px;
     margin-left: 427px;
-    margin-right: 325px;
-    margin-bottom: 72px;
-    margin-top: 96px;
+        margin-right: 325px;
+        margin-bottom: 72px;
+        margin-top: 96px;
     
 }
 
@@ -265,6 +267,17 @@ align-items: center;
    
 }
 
+.cards-filter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.filter-card {
+    border: 1px solid #E7E9FC;
+       
+}
 .four-items {
     width: 264px;
 }
