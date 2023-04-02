@@ -10,9 +10,30 @@
 }
 
 
+
+h1,h2,h3,h4,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
 .link {
     text-decoration:none;
 }
+
+button {
+    cursor: pointer;
+}
+
+
     body {
         font-family: 'Roboto', sans-serif;
         background-color:#FFFFFF;
@@ -23,6 +44,30 @@
     }
 
     
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+.page-header-container {
+display: flex;
+align-items: center;
+}
+
+.page-nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
 
      .contact {
         
@@ -30,8 +75,15 @@
             line-height: 1.5;
             letter-spacing: 0.02em;
             color: var(--primary-text-color);
+                  
      }   
 
+.contact-mail-phone {
+    margin-left: auto;
+}
+.contact-mail {
+    margin-right: 40px;
+}
      .contact:hover {
         color: var(--ocean-color)
      }
@@ -44,6 +96,11 @@
             background-color: #FFFFFF
          }
 
+
+    .main-header {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
      .logo {
         font-family: 'Raleway', sans-serif;
         font-weight: 800;
@@ -52,6 +109,7 @@
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        margin-right: 76px;
      }
      .change-color-btn {
        font-family: 'Roboto', sans-serif;
@@ -62,8 +120,22 @@
             color: var(--iris-color);
             background-color: #F4F4FD;
             cursor: pointer;
-            
+            border: 1px solid #E7E9FC;
+                border-radius: 4px;
      }
+
+.btn-filter {
+    display: flex;
+    padding-top: 12px;
+    padding-left: 24px;
+    padding-bottom: 12px;
+    padding-right: 24px;
+    
+}
+
+.btns-center:not(:last-child) {
+    margin-right: 24px;
+}
 
      .change-color-btn:hover {
         color: #FFFFFF;
@@ -88,9 +160,16 @@
             letter-spacing: 0.04em;
             color: #FFFFFF;
             background-color: #4D5AE5;
-            cursor: pointer;
-             
-     }
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+                border-radius: 4px;
+                padding-top: 16px;
+                padding-left: 32px;
+                padding-bottom: 16px;
+                padding-right: 32px;
+                cursor: pointer;
+                border: transparent;
+                
+            }
 
      .order-btn:hover,
      .order-btn:focus {
@@ -140,9 +219,23 @@
             letter-spacing: 0.02em;
             text-transform: capitalize;
             color: var(--header-words-color);
-            background-color: #F4F4FD;
+            margin-bottom: 72px;
+        
      }
 
+     .section-team {
+        background-color: #F4F4FD;
+        padding-top: 120px;
+        padding-bottom: 120px;
+     }
+     
+.four-blocks {
+    padding-top: 120px;
+}
+     .doing-section {
+        padding-top: 120px;
+            padding-bottom: 120px;
+     }
             .we-re-doing-section {
             
                     font-weight: 700;
@@ -153,9 +246,9 @@
                     text-transform: capitalize;
                     color: var(--header-words-color);
                     background-color: #FFFFFF;
+                    margin-bottom: 72px;
         
      }
-
      .footer-text {
         
             font-size: 16px;
@@ -165,6 +258,11 @@
      }
 
 
+.menu-item:not(:last-child) {
+margin-right: 40px;
+}
+
+
          .menu-link {
     
              font-weight: 500;
@@ -172,7 +270,7 @@
              line-height: 1.5;
              letter-spacing: 0.02em;             
              color: #2e2f42;
-         }
+                      }
      .menu-link:hover {
         color: var(--ocean-color);
         }
@@ -196,14 +294,22 @@
 
             .contacts-font-normal {
                 font-style: normal;
+                
             }
 
     .section-team {
         color: #F4F4FD;
-        background-color: #F4F4FD
+       background-color: #F4F4FD;
 
     }
 
+    .employees {
+        display: flex;
+        justify-content: space-between;
+    }
+    .contact-flex {
+        display: flex;
+    }
     .section-effect-sol {
         background-color: #2E2F42;
     }
