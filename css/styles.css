@@ -170,6 +170,9 @@ align-items: center;
                 padding-left: 32px;
                 padding-bottom: 16px;
                 padding-right: 32px;
+                margin-bottom: 188px;
+                margin-left: 636px;
+                margin-right: 635px;
                 cursor: pointer;
                 border: transparent;
                 
@@ -188,6 +191,11 @@ align-items: center;
             text-align: center;
             letter-spacing: 0.02em;
             color: #FFFFFF;
+            padding-top: 188px;
+            padding-bottom: 48px;
+            
+                padding-left: 472px;
+                padding-right: 472px;
 
      }
 
@@ -201,7 +209,7 @@ align-items: center;
         font-weight: 400;
             font-size: 16px;
             line-height: 1.5;           
-            text-align: center;
+            
             letter-spacing: 0.02em;
             color: var(--primary-text-color);
                 
@@ -212,7 +220,7 @@ align-items: center;
             font-weight: 500;
             font-size: 20px;
             line-height: 1.2;
-            text-align: center;
+            
             letter-spacing: 0.02em;
             color: var(--header-words-color);
             margin-bottom: 8px;
@@ -284,6 +292,7 @@ align-items: center;
             line-height: 1.5;
             letter-spacing: 0.02em;
             color:#F4F4FD;
+            margin-top: 16px;
      }
 
 
@@ -310,8 +319,15 @@ margin-right: 40px;
 
      .footer-back {
         background-color: #2e2f42;
+        height: 312px;
      }
 
+     .footer-content {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 156px;
+        padding-right: 1020px;
+     }
 
           .studio-footer {
               color: #f4f4fd;
@@ -326,6 +342,7 @@ margin-right: 40px;
                 
             }
 
+            
     .section-team {
         color: #F4F4FD;
        background-color: #F4F4FD;
@@ -341,8 +358,12 @@ margin-right: 40px;
     }
     .section-effect-sol {
         background-color: #2E2F42;
+        height: 600px;
     }
 
     .to-hide {
         visibility: hidden;
     }
+
+
+   
