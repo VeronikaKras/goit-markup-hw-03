@@ -209,11 +209,7 @@ align-items: center;
             text-align: center;
             letter-spacing: 0.02em;
             color: #FFFFFF;
-            padding-top: 188px;
-            padding-bottom: 48px;
-            
-                padding-left: 472px;
-                padding-right: 472px;
+           
                 max-width: 496px;
                 margin: 0 auto 48px;
 
@@ -353,9 +349,7 @@ align-items: center;
      }
 
 
-.menu-item:not(:last-child) {
-margin-right: 40px;
-}
+
 
 .menu-item {
     gap: 40px;
@@ -381,7 +375,7 @@ margin-right: 40px;
 
      .footer-back {
         background-color: #2e2f42;
-        height: 312px;
+        
         padding: 100px 0;
      }
 
@@ -424,10 +418,11 @@ margin-right: 40px;
     }
     .contact-flex {
         display: flex;
+        gap: 40px;
     }
     .section-effect-sol {
         background-color: #2E2F42;
-        height: 600px;
+        
         padding: 188px 0;
     }
 
