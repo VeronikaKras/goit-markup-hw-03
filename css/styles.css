@@ -68,6 +68,7 @@ align-items: center;
 .menu {
     display: flex;
     align-items: center;
+    gap: 40px;
 }
 
      .contact {
@@ -328,6 +329,10 @@ align-items: center;
 margin-right: 40px;
 }
 
+.menu-item {
+    gap: 40px;
+}
+
 
          .menu-link {
     
@@ -336,6 +341,7 @@ margin-right: 40px;
              line-height: 1.5;
              letter-spacing: 0.02em;             
              color: #2e2f42;
+            padding: 24px 0;
                       }
      .menu-link:hover {
         color: var(--ocean-color);
@@ -386,6 +392,7 @@ margin-right: 40px;
     .employees {
         display: flex;
         justify-content: space-between;
+        gap: 24px;
     }
     .contact-flex {
         display: flex;
