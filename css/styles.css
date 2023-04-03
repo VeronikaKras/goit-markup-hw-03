@@ -214,6 +214,8 @@ align-items: center;
             
             letter-spacing: 0.02em;
             color: var(--primary-text-color);
+
+            margin-bottom: 32px;
                 
      }
 
@@ -276,7 +278,18 @@ align-items: center;
 
 .filter-card {
     border: 1px solid #E7E9FC;
-       
+    margin-bottom: 48px;
+    
+   
+          
+}
+
+.card-text {
+    margin-left: 16px;
+}
+
+.filter-card:nth-child(3n) {
+    margin-right: 0;
 }
 .four-items {
     width: 264px;
