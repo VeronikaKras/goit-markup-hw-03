@@ -180,6 +180,7 @@ align-items: center;
                 margin-right: 635px;
                 cursor: pointer;
                 border: transparent;
+                display: block;
                 
             }
 
@@ -201,6 +202,8 @@ align-items: center;
             
                 padding-left: 472px;
                 padding-right: 472px;
+                max-width: 496px;
+                margin: 0 auto 48px;
 
      }
 
@@ -400,6 +403,7 @@ margin-right: 40px;
     .section-effect-sol {
         background-color: #2E2F42;
         height: 600px;
+        padding: 188px 0;
     }
 
     .to-hide {
