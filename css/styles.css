@@ -63,6 +63,7 @@ align-items: center;
     display: flex;
     align-items: center;
     margin-right: auto;
+    
 }
 
 .menu {
@@ -127,10 +128,15 @@ align-items: center;
             cursor: pointer;
             border: 1px solid #E7E9FC;
                 border-radius: 4px;
+                padding: 12px 24px;
+                border-radius: 4px;
+                
      }
 
 .btn-filter {
     display: flex;
+    justify-content: center;
+    gap: 24px;
     padding-top: 12px;
     padding-left: 24px;
     padding-bottom: 12px;
@@ -149,12 +155,14 @@ align-items: center;
      .change-color-btn:hover {
         color: #FFFFFF;
         background-color: var(--ocean-color);
+        border: 1px solid transparent;
      }
      .change-color-btn:focus {
 
     
     color: #FFFFFF;
     background-color: var(--ocean-color);
+    border: 1px solid transparent;
      }
 
      
@@ -418,5 +426,7 @@ margin-right: 40px;
         visibility: hidden;
     }
 
-
+.section-portfolio {
+    padding: 96px 120px;
+}
    
