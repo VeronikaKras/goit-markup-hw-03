@@ -185,6 +185,7 @@ align-items: center;
                 height: 56px;
                 margin: 0 auto;
                 
+                
             }
 
      .order-btn:hover,
@@ -268,7 +269,8 @@ align-items: center;
      }
 .four-blocks-section {
     padding-top: 120px;
-    padding: 120px 0
+    padding: 120px 0;
+    gap: 24px;
 }
 
 .four-blocks {
