@@ -368,7 +368,8 @@ align-items: center;
 
      .footer-back {
         background-color: #2e2f42;
-        
+        padding: 100px 0;
+       
    
      }
 
@@ -378,7 +379,7 @@ align-items: center;
 }
 
      .footer-content {
-        padding: 100px 0;
+       
             
      }
 
